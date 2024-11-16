@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+	<link rel="stylesheet" href="resources/styles/home.css">
+	<link rel="icon" href="resources/images/logo2.jpg">
+
+</head>
+<body>
+	<div id="home_container">
+		<div id="left_side_bar">
+			<button><img src="resources/images/home.png" alt=""></button>
+			<button><img src="resources/images/search.png" alt=""></button>
+			<button><img src="resources/images/bell.png" alt=""></button>
+			<button><img src="resources/images/user.png" alt=""></button>
+			<button><img src="resources/images/add_tweet.png" alt=""></button>
+			<button onclick="logoutHandler()"><img src="resources/images/logout.png" alt=""></button>
+
+		</div>
+		<div id="main_content">
+			<div class="add_tweet">
+				<div class="add_tweet_first_line">
+					<img src="resources/images/profile.png" alt="">
+					<input type="text" placeholder="What is Happening?">
+				</div>
+				<div class="add_tweet_second_line">
+					<button id="post-btn" onclick="addTweetHandler()">post</button>
+				</div>
+			</div>
+			<div id="tweets_list"></div>
+
+		</div>
+		<div id="right_side_bar">
+			<h2>You might like</h2>
+			<div id="likes_list"></div>
+
+
+		</div>
+	</div>
+	<script src="resources/scripts/home.js"></script>
+</body>
+</html>

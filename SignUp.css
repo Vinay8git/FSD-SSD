@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #5DA9DD;
+}
+.Sign-container{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:100vh;
+    gap: 20px;
+}
+.signimg{
+    margin: 10px;
+}
+#content{
+
+}
+.log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12vw;
+    height: 25px;
+}
+.log:hover{
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+}

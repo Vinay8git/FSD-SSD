@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-Previously Twitter</title>
+    <link rel="shortcut icon" href="./Resources/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="SignUp.css">
+</head>
+<body>
+    <div class="Sign-container">
+        <div class="signimg">
+            <img src="./Resources/logo2.jpg" alt="">
+        </div>
+        <div id="content">
+            
+            <form  id="form-content">
+                <h2>Sign UP</h2><br>
+                <p id="ErrorPara">.</p>
+                <label for="Username">UserName</label><br>
+                <input type="text" name="username"><br>
+                <label for="pw">Password</label><br>
+                <input type="password" name="Pw" id="PW"><br>
+                <label for="pw">Confirm Password</label><br>
+                <input type="password" name="CPw" id="CPW"><br>
+                <label for="mobile">Mobile No.</label><br>
+                <input type="tel" name="" id="mob"><br>
+                <label for="email">Email Id</label><br>
+                <input type="email" name="" id="mail"><br><br>
+                <label for="">User Image</label><br>
+                <input type="file" name="" id=""><br><br>
+                <button class="log" type="submit" onblur="validatePasswords()">Sign Up</button><br>
+                <p>Already A User? <a href="x.html">Login Here</a></p>
+            </form>
+            
+        </div>
+    </div>
+    <script src="SignUp.js"></script>
+</body>
+</html>
